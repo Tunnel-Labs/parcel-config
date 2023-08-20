@@ -1,5 +1,5 @@
 {
-	"name": "parcel-config",
+	"name": "@tunnel/parcel-config",
 	"version": "1.0.0",
 	"main": "index.json",
 	"engines": {
