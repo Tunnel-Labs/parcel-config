@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@parcel/config-default':
-    specifier: 2.9.3
+    specifier: ^2.9.3
     version: 2.9.3(@parcel/core@2.9.3)
   parcel-resolver-glob-imports:
-    specifier: 1.0.0
-    version: 1.0.0(@parcel/core@2.9.3)
+    specifier: ^1.0.1
+    version: 1.0.1(@parcel/core@2.9.3)
   parcel-resolver-tilde-imports:
-    specifier: 1.0.0
-    version: 1.0.0(@parcel/core@2.9.3)
+    specifier: ^1.0.1
+    version: 1.0.1(@parcel/core@2.9.3)
 
 packages:
 
@@ -1735,6 +1735,7 @@ packages:
   /node-gyp-build-optional-packages@5.0.7:
     resolution: {integrity: sha512-YlCCc6Wffkx0kHkmam79GKvDQ6x+QZkMjFGrIMxgFNILFvGSbCp2fCBC55pGTT9gVaz8Na5CLmxt/urtzRv36w==}
     hasBin: true
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -1784,8 +1785,8 @@ packages:
       p-limit: 4.0.0
     dev: false
 
-  /parcel-resolver-glob-imports@1.0.0(@parcel/core@2.9.3):
-    resolution: {integrity: sha512-cueq7nMs8sA0TU4NEuT/a4oeS7XtltJg62/wOsXsF3Ep6lVJ1FziSqzEWZVG9Yo4I/uiAv/WrzW7AOixBdJAig==}
+  /parcel-resolver-glob-imports@1.0.1(@parcel/core@2.9.3):
+    resolution: {integrity: sha512-Z5jWpCw3ftd8bRkSytGJeZR+LaA5pnxfwtV/F9YoWIujSk2ZDW/7+hqV557Ou9JUa8NuG3ZTj54IjMbs4o0Rtw==}
     engines: {parcel: 2.9.3}
     dependencies:
       '@parcel/plugin': 2.9.3(@parcel/core@2.9.3)
@@ -1794,8 +1795,8 @@ packages:
       - '@parcel/core'
     dev: false
 
-  /parcel-resolver-tilde-imports@1.0.0(@parcel/core@2.9.3):
-    resolution: {integrity: sha512-MdtCQHg4uAqVWAh1DVFEdARt4JdvYiEpT6UWtEaoyJ8+Xk7Rfn+nsk65yVy+cSzNa5rIk8skUDsUPZiCAYAqIA==}
+  /parcel-resolver-tilde-imports@1.0.1(@parcel/core@2.9.3):
+    resolution: {integrity: sha512-Jie6xnG4+frib5PcER08/R9M1SHx0jDiVRU4cWqu8fH3dCI4TTRtkgjK4/F/gERSj+JOnfvHhxVOeNa1/bgK4Q==}
     engines: {parcel: 2.9.3}
     dependencies:
       '@parcel/plugin': 2.9.3(@parcel/core@2.9.3)
