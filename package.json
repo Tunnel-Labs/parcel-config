@@ -1,13 +1,13 @@
 {
 	"name": "@tunnel/parcel-config",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.json",
 	"engines": {
 		"parcel": "2.x"
 	},
 	"dependencies": {
-		"@parcel/config-default": "2.9.3",
-		"parcel-resolver-glob-imports": "1.0.0",
-		"parcel-resolver-tilde-imports": "1.0.0"
+		"@parcel/config-default": "^2.9.3",
+		"parcel-resolver-glob-imports": "^1.0.1",
+		"parcel-resolver-tilde-imports": "^1.0.1"
 	}
 }
